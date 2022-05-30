@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+button {
+  border: none;
+  font-size: 15px;
+  padding: 4.5px 15px;
+  background-color: royalblue;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  height: 27px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 0 0 0 10px;
+}
+
+.Title {
+  padding: 5px;
+}
+
+.App {
+  background-color: gray;
+  justify-content: space-between;
+  display: flex;
+  height: 100vh;
+}
+
+.Block {
+  margin: 15px;
+  padding: 15px;
+  width: 30%;
+}
+
+.Name {
+  margin-top: 15px;
+}
+
+.Form {
+  display: flex;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 5px;
+  margin: 15px 0;
+  color: #fff;
+}
+
+.TodoDelete,
+.PostDelete {
+  background-color: palevioletred;
+  margin-left: 15px;
+}
+
+.TodoComplete {
+  background-color: greenyellow;
+}
+
+.TodoHasToBeComplete {
+  background-color: yellow;
+}
+
+.Posts {
+  margin-top: 15px;
+}
+
+.Post {
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
